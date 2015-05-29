@@ -1,0 +1,63 @@
+## Output
+
+Note: The first value is an array of coordinates that refers to the row and column of the first character of word, using a zero-based index starting in the upper left.
+
+The second value is the directional indicator based on cardinal directions, rather than Up/Down, Left/Right,
+as described in the Instructions.
+
+---
+```javascript
+[ [ [ 5, 3 ], 'SE', 'APPLICATION' ],
+  [ [ 9, 0 ], 'N', 'BACKUP' ],
+  [ [ 11, 2 ], 'NE', 'BINARY' ],
+  [ [ 17, 14 ], 'W', 'BLUETOOTH' ],
+  [ [ 11, 10 ], 'E', 'BOOT' ],
+  [ [ 17, 14 ], 'E', 'BYTE' ],
+  [ [ 5, 11 ], 'SW', 'CHAT' ],
+  [ [ 10, 1 ], 'NE', 'CLICK' ],
+  [ [ 16, 17 ], 'W', 'COOKIE' ],
+  [ [ 16, 17 ], 'N', 'CURSOR' ],
+  [ [ 13, 10 ], 'SW', 'DATA' ],
+  [ [ 8, 9 ], 'SW', 'DEFRAGMENT' ],
+  [ [ 3, 2 ], 'E', 'DIRECTORY' ],
+  [ [ 17, 2 ], 'NE', 'DISKDRIVE' ],
+  [ [ 7, 2 ], 'NE', 'DOS' ],
+  [ [ 17, 5 ], 'NW', 'DRAG' ],
+  [ [ 1, 4 ], 'W', 'EMAIL' ],
+  [ [ 3, 11 ], 'S', 'ENCRYPTION' ],
+  [ [ 10, 7 ], 'N', 'FILE' ],
+  [ [ 16, 2 ], 'E', 'FIREWALL' ],
+  [ [ 2, 16 ], 'S', 'FOLDER' ],
+  [ [ 0, 16 ], 'S', 'GIF' ],
+  [ [ 5, 17 ], 'N', 'GOOGLE' ],
+  [ [ 9, 17 ], 'N', 'HTML' ],
+  [ [ 6, 1 ], 'N', 'ICON' ],
+  [ [ 0, 15 ], 'S', 'INTERNET' ],
+  [ [ 0, 9 ], 'W', 'JAVASCRIPT' ],
+  [ [ 10, 2 ], 'SE', 'KERNAL' ],
+  [ [ 1, 0 ], 'S', 'LCD' ],
+  [ [ 10, 16 ], 'S', 'LOGIN' ],
+  [ [ 1, 3 ], 'E', 'MEMORY' ],
+  [ [ 10, 17 ], 'SW', 'MONITOR' ],
+  [ [ 1, 10 ], 'E', 'MOUSE' ],
+  [ [ 16, 1 ], 'N', 'NANOSECOND' ],
+  [ [ 15, 15 ], 'NW', 'NETWORK' ],
+  [ [ 6, 8 ], 'SE', 'PARTITION' ],
+  [ [ 15, 5 ], 'NW', 'PASTE' ],
+  [ [ 17, 3 ], 'W', 'PDF' ],
+  [ [ 0, 14 ], 'W', 'PIXEL' ],
+  [ [ 4, 0 ], 'E', 'POWERSUPPLY' ],
+  [ [ 15, 11 ], 'NW', 'PROGRAMMER' ],
+  [ [ 12, 9 ], 'SW', 'ROUTER' ],
+  [ [ 5, 9 ], 'W', 'SAVEAS' ],
+  [ [ 16, 0 ], 'N', 'SCANNER' ],
+  [ [ 9, 12 ], 'N', 'SECURITY' ],
+  [ [ 1, 13 ], 'S', 'SHAREWARE' ],
+  [ [ 2, 14 ], 'S', 'SOFTWARE' ],
+  [ [ 10, 14 ], 'NE', 'SPAM' ],
+  [ [ 2, 7 ], 'W', 'TASKBAR' ],
+  [ [ 8, 17 ], 'SW', 'THUMBNAIL' ],
+  [ [ 2, 11 ], 'W', 'UNIX' ],
+  [ [ 16, 10 ], 'NW', 'WALLPAPER' ] ]
+[Finished in 0.242s]
+```
